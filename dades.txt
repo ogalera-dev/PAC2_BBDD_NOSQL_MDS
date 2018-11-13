@@ -1,0 +1,16 @@
+E#87641243-S;Jaume;Ruiz;Tomàs;jaume.ruiz@gmail.com;Girona
+E#47124754-A;Pere;Carmona;Blanc;pere.carmona@gmail.com;Zaragoza
+E#15472364-S;Ramón;Perez;Taula;ramon.perez@gmail.com;Banyoles
+E#36254745-Z;Miquel;Garcia;Cadira;miquel.garcia@gmail.com;Zaragoza
+E#36259562-A;Joan;Alfaro;Prats;joan.alfaro@gmail.com;Zaragoza
+E#11111111-E;Quim;Prats;Mora;quim.prats@gmail.com;Zaragoza
+M#87641243-S;Estadística ava.;1;6;Optativa
+M#87641243-S;Càlcul I;1;6;Obligatoria
+M#47124754-A;Estructura de dades;1;3.5;Obligatoria
+M#47124754-A;Bases de dades;1;4;Optativa
+M#47124754-A;Algorítmica;2;12;Obligatoria
+M#36254745-Z;Àlgebra;1;3;Obligatoria
+M#36254745-Z;Algorítmica;2;12;Obligatoria
+M#36259562-A;Sistemes operatius;2;6;Optativa
+M#36259562-A;Càlcul II;2;6;Obligatoria
+M#36259562-A;Algorítmica;2;12;Obligatoria
