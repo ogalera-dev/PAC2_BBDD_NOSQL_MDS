@@ -1,0 +1,6 @@
+E#87641243-S;Jaume;Ruiz;Tomàs;jaume.ruiz@gmail.com;Girona
+E#47124754-A;Pere;Carmona;Blanc;pere.carmona@gmail.com;Zaragoza
+E#15472364-S;Ramón;Perez;Taula;ramon.perez@gmail.com;Banyoles
+E#36254745-Z;Miquel;Garcia;Cadira;miquel.garcia@gmail.com;Zaragoza
+E#36259562-A;Joan;Alfaro;Prats;joan.alfaro@gmail.com;Zaragoza
+E#11111111-E;Quim;Prats;Mora;quim.prats@gmail.com;Zaragoza

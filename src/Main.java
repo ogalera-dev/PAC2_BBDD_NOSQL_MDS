@@ -21,6 +21,7 @@ public class Main {
         private static final Gson GSON = new Gson();
 
         public void map(Object key, Text value, Context context) throws IOException, InterruptedException {
+            System.out.println("Clau "+key);
             Registre registre = null;
             String camps[] = value.toString().split("#");
             switch(camps[0]){
@@ -72,7 +73,16 @@ public class Main {
         }
     }
 
+    private static void help(){
+        System.out.println("Instruccions d'ús");
+        System.out.println("hadoop jar arxiu.jar Main estudiants.txt matricules.txt desti");
+    }
+
     public static void main(String[] args) throws Exception {
+        if(args.length != 3){
+            help();
+            throw new Exception();
+        }
         Configuration conf = new Configuration();
         Job job = Job.getInstance(conf, "Exercici 4");
         job.setJarByClass(Main.class);
@@ -81,7 +91,8 @@ public class Main {
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(Text.class);
         FileInputFormat.addInputPath(job, new Path(args[0]));
-        FileOutputFormat.setOutputPath(job, new Path(args[1]));
+        FileInputFormat.addInputPath(job, new Path(args[1]));
+        FileOutputFormat.setOutputPath(job, new Path(args[2]));
         System.exit(job.waitForCompletion(true) ? 0 : 1);
     }
 }

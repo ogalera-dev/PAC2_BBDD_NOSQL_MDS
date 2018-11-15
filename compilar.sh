@@ -8,4 +8,4 @@ hadoop com.sun.tools.javac.Main src/*.java
 rm -rf src/*.class
 mv src/res.jar ./res.jar
 
-hadoop jar res.jar Main dades.txt res
+hadoop jar res.jar Main estudiants.txt matricules.txt res
